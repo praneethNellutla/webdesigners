@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    height: fit-content;
+    padding: 20px 10px;
+}
+
+.about > h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about > p{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.introHeading > img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 20px;
+    float: right;
+}
+
+.induction{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introHeading{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.bodyright > img{
+   width: 200px;
+   height: 300px;
+}
+
+.bodyleft{
+    margin-right: 30px;
+}
+
+.bodyleft > p{
+    font-size: 20px;
+}
+
+.stats{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.statsholder{
+    display: flex;
+    padding: 20px;
+}
+
+.visionMissionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.vision > h2{
+    font-size: 50px;
+}
+
+.vision > p{
+    font-size: 20px;
+}
+
+.mission > h2{
+    font-size: 50px;
+}
+
+.mission > p{
+    font-size: 20px;
+}
+
+
+.faculty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faculty > .facultyImages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faculty > .facultyImages > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.coordinators{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.coordinators > .coordinatorsImages > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
