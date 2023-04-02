@@ -81,6 +81,10 @@ header{
     font-size: 20px;
 }
 
+.bodyleft > ul{
+    font-size: 20px;
+}
+
 .stats{
     display: flex;
     width: 100px;
